@@ -1,6 +1,6 @@
 from chalice import Chalice
 
-app = Chalice(app_name='TrackerBackend')
+app = Chalice(app_name='TrackerUiHttpApi')
 
 
 @app.route('/')
